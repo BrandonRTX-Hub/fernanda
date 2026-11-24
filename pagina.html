@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolates Conejito Turín</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, serif;
+            background-color: #f5e6d3;
+            color: #4b2819;
+        }
+
+        header {
+            background-color: #4b2819;
+            color: white;
+            text-align: center;
+            padding: 35px 15px;
+        }
+
+        header h1 {
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 16px;
+            color: #f3d5b5;
+        }
+
+        nav {
+            background-color: #75452c;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f5c58e;
+        }
+
+        section {
+            padding: 40px 10%;
+            margin: 25px auto;
+            max-width: 1000px;
+            background-color: #fff9f1;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px #8b5e3c30;
+        }
+
+        h2 {
+            color: #713d24;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 27px;
+        }
+
+        p {
+            font-size: 17px;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        .datos {
+            text-align: center;
+            line-height: 2.2;
+        }
+
+        .imagen {
+            display: block;
+            width: 80%;
+            max-width: 450px;
+            height: 250px;
+            object-fit: cover;
+            margin: 20px auto;
+            border-radius: 12px;
+        }
+
+        .subtitulo {
+            color: #8b4b2b;
+            margin: 20px 0 10px;
+            font-size: 21px;
+        }
+
+        footer {
+            background-color: #4b2819;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 27px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 7px;
+            }
+
+            section {
+                padding: 25px 7%;
+            }
+
+            .imagen {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1> Chocolates Conejito Turín </h1>
+        <p>Un pequeño chocolate lleno de dulzura</p>
+    </header>
+
+    <nav>
+        <a href="#personal">Datos personales</a>
+        <a href="#historia">Sobre el chocolate</a>
+        <a href="#producto">Conejito Turín</a>
+    </nav>
+
+    <!-- APARTADO 1 -->
+    <section id="personal">
+        <h2>1. Datos personales</h2>
+
+        <p class="datos">
+            <strong>Nombre:</strong> Maria Fernanda Morales Martinez<br>
+            <strong>Edad:</strong> 16 años<br>
+            <strong>Escolaridad:</strong> Estudiante de bachillerato<br>
+            <strong>Sexo:</strong> Femenino
+        </p>
+    </section>
+
+    <!-- APARTADO 2 -->
+    <section id="historia">
+        <h2>2. ¿Qué es el chocolate?</h2>
+
+        <img class="imagen"
+        src="turin.png"
+        alt="Chocolate">
+
+        <p>
+            El chocolate es un alimento elaborado principalmente
+            a partir de las semillas del cacao. Es conocido por
+            su sabor dulce y su gran variedad de presentaciones.
+            Se utiliza en dulces, postres, bebidas y diferentes
+            productos de repostería.
+        </p>
+
+        <h3 class="subtitulo">Origen del chocolate</h3>
+
+        <p>
+            El cacao tiene su origen en América y fue utilizado
+            por antiguas civilizaciones como los mayas y los
+            mexicas. Con el paso del tiempo, el chocolate se
+            extendió por el mundo y se convirtió en uno de los
+            dulces más populares.
+        </p>
+    </section>
+
+    <!-- APARTADO 3 -->
+    <section id="producto">
+        <h2>3. Chocolates Conejito Turín</h2>
+
+        <img class="imagen"
+        src="https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=900"
+        alt="Chocolates">
+
+        <p>
+            El Conejito Turín es uno de los chocolates más
+            conocidos de México. Se caracteriza por su
+            presentación en forma de pequeño conejo y su
+            delicioso sabor a chocolate.
+        </p>
+
+        <h3 class="subtitulo">Características</h3>
+
+        <p>
+            • Tiene una presentación con forma de conejo.<br>
+            • Es un chocolate pequeño y fácil de disfrutar.<br>
+            • Es conocido por su sabor y textura.<br>
+            • Es popular como dulce, regalo o detalle.
+        </p>
+
+        <h3 class="subtitulo">¿Por qué es tan popular?</h3>
+
+        <p>
+            Su popularidad se debe a su presentación original,
+            su sabor y a que es un producto muy reconocido
+            entre los consumidores mexicanos. Además, es
+            una opción que muchas personas disfrutan para
+            compartir en diferentes ocasiones.
+        </p>
+    </section>
+
+    <footer>
+        <p style="text-align:center;">
+            Página web elaborada por Maria Fernanda Morales Martinez
+        </p>
+        <p style="text-align:center;">
+            🍫 ¡El chocolate siempre endulza el día! 🐰
+        </p>
+    </footer>
+
+</body>
+</html>
+
